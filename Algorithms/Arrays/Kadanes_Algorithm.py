@@ -10,7 +10,7 @@ def kadanes_algo(arr):
     return max_sum
 
 
-line = list(map(int, input()))
+line = list(map(int, input().split()))
 print(f"The max sum is {kadanes_algo(line)}")
 
 
